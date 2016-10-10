@@ -72,10 +72,10 @@ public class BindActivity extends AppCompatActivity {
         if (mService != null) {
             // 通过绑定服务传递的Binder对象，获取Service暴露出来的数据
 
-            Log.d(TAG, "从服务端获取数据：" + mService.getCount());
+            Log.i(TAG, "从服务端获取数据：" + mService.getCount());
         } else {
 
-            Log.d(TAG, "还没绑定呢，先绑定,无法从服务端获取数据");
+            Log.i(TAG, "还没绑定呢，先绑定,无法从服务端获取数据");
         }
     }
 
