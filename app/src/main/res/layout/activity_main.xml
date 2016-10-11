@@ -38,4 +38,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Foreground Service" />
+
+    <Button
+        android:id="@+id/NotificationService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Notification Service" />
 </LinearLayout>
